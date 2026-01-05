@@ -1,0 +1,30 @@
+HTTP Métodos:
+Get -> Listar
+Post -> Criar
+Put -> Editar vários
+Patch -> Editar um
+Delete -> Deletar
+
+HTTP Status:
+2xx -> Sucesso
+4xx -> Erro Cliente
+5xx -> Erro Servidor
+
+
+1) Tipo de Rota / Método HTTP
+2) Endereço (pode ser um endereço da internet / endereço local)
+
+
+- Query params
+servidor.com/usuarios?estado=bahia&cidade=salvador
+
+- Route params
+get -> servidor.com/usuarios/22
+put -> servidor.com/usuarios/22
+delete -> servidor.com/usuarios/22
+
+- Body params (post e put)
+
+{
+    "nome":"João","id":22
+}

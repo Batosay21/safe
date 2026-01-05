@@ -1,0 +1,2 @@
+- node --watch server.js (reiniciar o servidor automaticamente sempre que fizer alterações
+)
